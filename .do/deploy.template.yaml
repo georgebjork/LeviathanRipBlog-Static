@@ -1,7 +1,7 @@
 spec:
   name: LeviathanRipBlog-Static
   static_sites:
-  - build_command: bundle exec jekyll build -d ./public
+  - build_command: bundle exec jekyll build
     environment_slug: jekyll
     git:
       branch: main
