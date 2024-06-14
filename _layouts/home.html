@@ -1,0 +1,32 @@
+---
+layout: default
+# Home Page
+---
+
+<div class="py-5 border-bottom mb-4">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 class="fw-bolder">Welcome to the Leviathan Rip Blog!</h1>
+            <p class="lead mb-0">Here you can find blogs retelling various sessions from the LeviathanRip campaign and other campaigns.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="row d-flex justify-content-center">
+    <div class="col-lg-8">
+        <h2 class="mb-3">Recent Blogs</h2>
+    </div>
+    
+    <div class="col-lg-8 col-md-12">
+        <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+    </div>
+</div>
+
+
