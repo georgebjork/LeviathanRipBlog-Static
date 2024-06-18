@@ -1,9 +1,11 @@
 ---
 title: "(1) Welcome to Severozov"
-layout: default
+date: 2024-05-23 12:00:00 -500
+author: "Logan Ritterbush"
+layout: post
+image:
+  path: /assets/images/1.png
 ---
-
-![Pictured - Captain Belov](/assets/images/1.png)
 
 Pictured - Captain Belov
 
