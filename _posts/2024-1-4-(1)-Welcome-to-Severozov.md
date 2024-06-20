@@ -5,6 +5,7 @@ author: "Logan Ritterbush"
 layout: post
 image:
   path: /assets/images/1.png
+  alt: "Captain Belov"
 ---
 
 Pictured - Captain Belov

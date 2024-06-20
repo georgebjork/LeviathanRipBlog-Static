@@ -3,42 +3,53 @@ layout: default
 refactor: true
 ---
 
+  <div class="row d-flex justify-content-center px-3">
+    <div class="col-lg-8 col-md-12 text-align-center">
+      <header>
+          <!-- Image -->
+          {% if page.image %}
+            {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+            {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+            {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+    
+            {% if page.image.lqip %}
+              {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+            {% endif %}
+    
+            <div class="mt-3 mb-3 d-flex justify-content-center">
+              <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+              {%- if page.image.alt -%}
+                <figcaption class="text-center text-muted pt-2 pb-2">{{ page.image.alt }}</figcaption>
+              {%- endif -%}
+            </div>
 
-<article class="px-1">
-    <header>
-      <h1 data-toc-skip>{{ page.title }}</h1>
-      {% if page.description %}
-        <p class="post-desc fw-light mb-4">{{ page.description }}</p>
-      {% endif %}
-  
-      <div class="post-meta text-muted">
-        <!-- published date -->
-        <span>
-            {{ page.date | date_to_long_string: "ordinal", "US" }}
-        </span>
+            <h1 data-toc-skip>{{ page.title }}</h1>
+            {% if page.description %}
+              <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+            {% endif %}
+        
+            <div class="post-meta text-muted">
+              <!-- published date -->
+              <span>
+                  {{ page.date | date_to_long_string: "ordinal", "US" }}
+              </span>
 
-        <!-- Author -->
-        <span>
-            {{ page.author }}
-        </span>
-  
-
-        <!-- Image -->
-        {% if page.image %}
-          {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
-          {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
-          {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
-  
-          {% if page.image.lqip %}
-            {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+              <span class="px-1">
+                |
+              </span>
+      
+              <!-- Author -->
+              <span>
+                  {{ page.author }}
+              </span>
+            </div>
           {% endif %}
-  
-          <div class="mt-3 mb-3">
-            <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
-            {%- if page.image.alt -%}
-              <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
-            {%- endif -%}
+
+          <hr class="py-2"/>
+          
+          <div class="text-muted">
+            {{ content }}
           </div>
-        {% endif %}
-    </header>
-</article>
+      </header>
+    </div>
+  </div>
