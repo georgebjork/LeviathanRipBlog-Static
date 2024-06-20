@@ -1,14 +1,12 @@
 ---
 title: "(1) Welcome to Severozov"
-date: 2024-05-23 12:00:00 -500
+date: 2023-09-8 12:00:00 -500
 author: "Logan Ritterbush"
 layout: post
 image:
   path: /assets/images/1.png
   alt: "Captain Belov"
 ---
-
-Pictured - Captain Belov
 
 The city of Severozov rises above the fathomless depths of Lake Cherovka, the seat of the Kasars of Beressia. Its current lordly occupant, Kasar Nicolas, has made it his mission to create in Severozov a collection of knowledge to rival the grand western college of Highwatch. To truly compete with Highwatch however, Severozov must serve as a conduit for arcane study, an end which Nicolas bleeds Bereslav coffers to achieve. To his credit, he has had success in doing so, but certainly not without consequence. The inexperience of Bereslav mages and Nicolas’ own foolhardiness have unleashed a number of effects and entities upon the people of Severozov and the surrounding countryside, which, although temporary, severely impact those involved and degrade the Kasar’s reputation. As his warlike sister Katarin attempts to discourage his venture from afar, Nicolas only accelerates his experimentations, drawing unwanted ire from his people and unwanted attention from more unsavory parties. All the while, he ignores the rest of his and Katarin’s lands, as towns fall to ambitious Boyars and dark thoughts gather in the shadows of the taiga. The city of Severozov shines as a beacon to many; mages seeking an unregulated space to practice as they see fit, scholars wishing to share their knowledge and receive acclaim, and entrepreneurs looking for some arcane product to acquire and sell. Many more however, see a ticking clock, a city on the verge of collapse, waiting to be overturned by its disgruntled populace or razed by an arcane meltdown. The Library of Severozov continues to grow, crushing the city beneath its ambitions, as if the very depths of Lake Cherovka are swallowing the city whole.
 
