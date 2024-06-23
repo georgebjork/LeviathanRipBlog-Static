@@ -1,6 +1,12 @@
 # LeviathanRipBlog-Static
 
+## Purpose
 
-https://stackoverflow.com/questions/56869979/jekyll-site-fails-only-when-pushed-to-github
+LeviathanRipBlog is a centralized platform designed for my friends and me to chronicle and revisit our Dungeons & Dragons (D&D) sessions. This application serves as a digital archive where game sessions can be stored, reread, and managed.
 
-https://alchemisc.com/2022/01/22/jekyll-bootstrap-5/
+## Architecture
+
+LeviathanRipBlog-Static is built on top of Jekyll and it hosted on digital ocean app platform.
+
+
+Live URL: https://leviathanripshowdown.rodeo/
